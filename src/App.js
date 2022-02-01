@@ -1,4 +1,5 @@
 import Card from "./components/Card";
+import Footer from "./components/Footer";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
 import exps from "./data";
@@ -16,7 +17,8 @@ function App() {
       <Hero />
       <section className="cards-list">
         {cards}
-      </section>    
+      </section>
+      <Footer />
 
     </div>
   );
